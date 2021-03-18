@@ -1,0 +1,13 @@
+.form-control {
+    outline: none !important;
+    -webkit-box-shadow: none !important;
+}
+
+.form-control:focus {
+    border-color: #ff4d4f !important;
+    background: #fff !important;
+}
+
+* {
+    user-select: none !important;
+}

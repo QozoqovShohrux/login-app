@@ -1,25 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+import "bootstrap/dist/css/bootstrap.css";
+import Routes from "./components/routes";
+import { route } from "./components/route.jsx";
+import Menu from "./components/menu.jsx";
+const App = () => {
+    return ( <
         >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
-
+        <
+        Menu / >
+        <
+        Routes route = { route }
+        />{" "} < / >
+    );
+};
 export default App;
